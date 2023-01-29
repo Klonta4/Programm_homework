@@ -11,8 +11,6 @@ internal class lesson7_1
         Console.WriteLine("Введите количество строк.");
         n = int.Parse(Console.ReadLine());
         Random rnd = new Random();
-        int sum = 0;
-        int avg;
 
         int[,] Arr = new int[m, n];
         for (int i = 0; i < m; i++)
