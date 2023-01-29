@@ -27,20 +27,13 @@ internal class lesson72
         stl = index / 10;
         str = index % 10;
 
-        if (stl < m)
+        if (stl < m && str < n)
         {
-            if (str < n)
-            {
-                Console.WriteLine("Элемент c индексом " + stl + " " + str + " это: " + Arr[stl,str]);
-            }
-            else
-            {
-                Console.WriteLine("Элемент не найден");
-            }
+            Console.WriteLine("Элемент c индексом " + stl + " " + str + " это: " + Arr[stl,str]);
         }
         else
-            {
-                Console.WriteLine("Элемент не найден");
-            }
+        {
+            Console.WriteLine("Элемент не найден");
+        }
     }
 }
