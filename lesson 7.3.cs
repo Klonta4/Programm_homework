@@ -29,7 +29,7 @@ for(int i = 0; i < m; i++)
     int index = i + 1;
     for(int j = 0; j < n; j++)
     {
-        sum += + Arr[i, j];
+        sum += Arr[i, j];
     }
     avg = sum / n;
     Console.WriteLine("Среднее арифметическое " +(index + 1) + " столбца: " + avg);
