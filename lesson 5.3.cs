@@ -4,8 +4,9 @@ int max = 0;
 int diff;
 Random rnd = new Random();
 
-Console.WriteLine("Введите размер массива");
+Console.WriteLine("Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ РјР°СЃСЃРёРІР°");
 m = int.Parse(Console.ReadLine());
+Console.WriteLine("");
 int[] Arr = new int[m];
 for (int i = 0; i < m; i++)
 {
@@ -15,4 +16,4 @@ for (int i = 0; i < m; i++)
     if (min > Arr[i]) min = Arr[i];
 }
 diff = max - min;
-Console.WriteLine("разница чисел минимального и максимального в массиве равно " + diff);
+Console.WriteLine("СЂР°Р·РЅРёС†Р° С‡РёСЃРµР» РјРёРЅРёРјР°Р»СЊРЅРѕРіРѕ Рё РјР°РєСЃРёРјР°Р»СЊРЅРѕРіРѕ РІ РјР°СЃСЃРёРІРµ СЂР°РІРЅРѕ " + diff);
