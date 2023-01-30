@@ -1,6 +1,6 @@
 ﻿
 
-Console.WriteLine("");
+Console.WriteLine("Введите число");
 int N = int.Parse(Console.ReadLine());
 Console.Write("все натуральные числа от " + N + " до 1:");
 RecFunc(N);
