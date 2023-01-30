@@ -3,7 +3,7 @@ int sum = 0;
 int del;
 Random rnd = new Random();
 
-Console.WriteLine("Введите размер массива");
+Console.WriteLine("Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ РјР°СЃСЃРёРІР°");
 m = int.Parse(Console.ReadLine());
 int[] Arr = new int[m];
 for (int i = 0; i < m; i++)
@@ -12,4 +12,4 @@ for (int i = 0; i < m; i++)
 	Console.WriteLine(Arr[i]);
 	if (i % 2 != 0) sum += Arr[i];
 }
-Console.WriteLine("Сумма чисел стоящих на нечетных позициях в массиве равно " + sum);
+Console.WriteLine("СЃСѓРјРјР° РІСЃРµС… С‡РёСЃРµР» СЃС‚РѕСЏС‰РёС… РЅР° РЅРµС‡РµС‚РЅС‹С… РїРѕР·РёС†РёСЏС… РјР°СЃСЃРёРІР° СЂР°РІРЅРѕ " + sum);
